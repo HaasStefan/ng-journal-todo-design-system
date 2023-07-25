@@ -19,7 +19,7 @@ import { FormsModule } from '@angular/forms';
 export class InputComponent {
   @Input({ required: true }) value!: string | null;
   @Input({ required: true }) label!: string;
-  @Input({ required: true }) id!: 'string';
+  @Input({ required: true }) id!: string;
   @Input({ required: true }) placeholder!: string;
   @Output() valueChange = new EventEmitter<string | null>();
 }
