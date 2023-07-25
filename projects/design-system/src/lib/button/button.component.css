@@ -9,3 +9,19 @@
   height: 36px;
   padding: 0 16px;
 }
+
+.design-system-button:hover {
+  background-color: #1976d2;
+}
+
+.design-system-button:active {
+  background-color: #1565c0;
+}
+
+.design-system-button[disabled] {
+  background-color: #e0e0e0;
+  color: #a9a9a9;
+  cursor: default;
+}
+
+

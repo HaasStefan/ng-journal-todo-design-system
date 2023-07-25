@@ -1,0 +1,17 @@
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1e88e5;
+}
+
+input:disabled {
+  background-color: #e0e0e0;
+  color: #a9a9a9;
+  cursor: default;
+}
