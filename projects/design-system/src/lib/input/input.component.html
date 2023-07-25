@@ -1,4 +1,6 @@
+<label for="id">{{ label }}</label>
 <input
+  [attr.id]="id"
   type="text"
   [ngModel]="value"
   (ngModelChange)="valueChange.emit($event)"
